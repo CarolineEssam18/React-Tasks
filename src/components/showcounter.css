@@ -1,0 +1,21 @@
+.nav{
+    margin:5%;
+    display: flex;
+   font-weight: bold;
+    justify-content: center;}
+.containerbtn{
+    display: flex;
+    margin-left: 3%;
+    justify-content: space-between;
+}
+.btn{
+    margin: 0 5%;
+    text-align: center;
+    background-color: rgb(235, 247, 70);
+    font-weight: bold;
+    padding: 60%;
+    border-radius: 25%;
+    border-color: black;
+    border-style: solid;
+    border-width: 2%;
+}
