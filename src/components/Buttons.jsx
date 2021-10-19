@@ -1,10 +1,9 @@
-import { useState } from "react";
 
 function Buttons(props){
     return(
         <>
-         <button className="btn" onClick={props.increase}> + </button>
-         <button className="btn" onClick={props.decrease}>-</button>
+         <button className="btn btn-primary me-3" onClick={props.increase}> + </button>
+         <button className="btn btn-primary " onClick={props.decrease}>-</button>
         </>
         
     )
