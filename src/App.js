@@ -3,6 +3,10 @@ import ShowCounter from './components/ShowCounter';
 import Home from './components/Home';
 import Shop from './components/Shop';
 import Todo from './components/todo/Todo';
+import Login from './components/Login';
+import Register from './components/Register';
+
+
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {BrowserRouter,Route,Switch} from 'react-router-dom'
@@ -21,6 +25,8 @@ function App() {
           <Route component={Shop} path="/shop" exact />
           <Route component={Singleitem} path="/shop/:id" />
           <Route component={Todo} path="/todo" />
+          <Route component={Login} path="/login" />
+          <Route component={Register} path="/register" />
         </Switch>
       </div>
     </BrowserRouter>
