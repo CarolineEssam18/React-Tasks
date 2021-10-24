@@ -9,3 +9,12 @@
     justify-content: space-between;
 }
 
+.counter{
+    background-color: blue;
+    color: white;
+    padding: 1%;
+    border-color: blue;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5%;
+}

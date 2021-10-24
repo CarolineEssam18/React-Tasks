@@ -12,8 +12,12 @@ function ShowCounter(){
     }
    return(
        <>
+        <h2 className="pt-5 text-warning">This Is A Simple Counter</h2>
         <div className="nav">
-            {counter}
+           
+           <div className="counter">
+                {counter}
+           </div>
             <div className="containerbtn">
             <Buttons counter={counter} decrease={decrease} increase={increase} />
 

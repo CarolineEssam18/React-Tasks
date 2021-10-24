@@ -32,8 +32,8 @@ const LoginForm = () => {
         </label>
         <input type="password" id="password" name="password"  value={formik.values.password}
           onChange={formik.handleChange}  onBlur={formik.handleBlur}/>
-           {formik.touched.email && formik.errors.email && (
-          <div style={{ color: "red" }}>{formik.errors.email}</div>
+           {formik.touched.password && formik.errors.password && (
+          <div style={{ color: "red" }}>{formik.errors.password}</div>
         )}
 
         <label htmlFor="rememberMe" style={{ display: "block" }}>

@@ -1,0 +1,11 @@
+.maindiv{
+    margin: 5%;
+    padding-top: 5%;
+    border-color: darkblue;
+    border-width: 2px;
+    border-style: solid;
+}
+.personalimage{
+    padding-bottom: 5%;
+    padding-top: 2%;
+}
